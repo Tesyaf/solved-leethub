@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int romanToInt(string s) {
+    short romanToInt(string s) {
         unordered_map<char,short>map;
         map['I'] = 1;
         map['V'] = 5;
